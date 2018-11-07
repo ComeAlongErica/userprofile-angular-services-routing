@@ -1,0 +1,10 @@
+<form>
+    <p class="form-directions">Use the form below to update your profile.</p>
+    <p class="form-header">Name</p>
+    <input ng-model="$ctrl.bio.name" type=text>
+    <p class="form-header">Contact</p>
+    <input ng-model="$ctrl.bio.subtitle" type=text>
+    <p class="form-header">Bio</p>
+    <textarea ng-model="$ctrl.bio.info" type=text></textarea>
+    <button ng-click="$ctrl.passData($ctrl.bio)" type="button">Test</button>
+</form>
